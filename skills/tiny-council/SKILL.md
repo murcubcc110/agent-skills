@@ -1,5 +1,5 @@
 ---
-name: council
+name: tiny-council
 description: Convene a lightweight internal council of diverse reasoning perspectives to evaluate a meaningful decision, plan, design, bug, tradeoff, code change, or high-stakes question. Use when the user asks for a council, panel, debate, multiple viewpoints, devil's advocate, pressure-test, stress-test, architecture review, risk review, decision support, or stronger reasoning before acting. Do not use for simple factual lookups, summaries, writing-only tasks, or questions with one clear answer; answer those directly instead.
 ---
 
