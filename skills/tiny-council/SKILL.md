@@ -22,6 +22,7 @@ Run a structured internal review from several independent reasoning methods, the
    - 実行計画役: dependency graphing and outside view; identify the practical first step and likely real-world failure points.
 5. For domain-heavy factual questions where the user still wants a council, choose domain roles instead, but include one 検証役 focused on uncertainty and source quality.
 6. Have each role reason independently. Keep each role's section concise and focused on:
+   - **Vote status** (Choose from: [Approve], [Reject], or [Abstain])
    - Main recommendation
    - Key evidence or assumptions
    - Biggest risk
@@ -31,6 +32,7 @@ Run a structured internal review from several independent reasoning methods, the
    - Give the strongest case that this consensus is wrong.
    - Say whether the council can rebut that challenge.
 9. Synthesize under the title "合議結果":
+   - **Final vote tally** (Count the votes from all roles)
    - Consensus
    - Disagreements
    - Recommended path
@@ -54,9 +56,7 @@ Use this structure unless the user asks for another format:
 - <Role>
 
 **Council Views**
-- **<Role>**: <recommendation, evidence, risk>
-- **<Role>**: <recommendation, evidence, risk>
-- **<Role>**: <recommendation, evidence, risk>
+- **<Role> [<Vote: Approve/Reject/Abstain>]**: <recommendation, evidence, risk>
 
 **Challenge Round**
 - <conflict, concern, assumption, or missing point>
@@ -68,6 +68,7 @@ Use this structure unless the user asks for another format:
 - **合議側の応答**: <rebut, concede, or revise>
 
 **合議結果**
+- **Vote Tally**: [Approve: X, Reject: Y, Abstain: Z]
 <clear recommendation and why>
 
 **失うもの**
